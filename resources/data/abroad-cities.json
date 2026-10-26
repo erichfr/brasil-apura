@@ -1,0 +1,2811 @@
+{
+  "year": 2026,
+  "reviewed_at": "2026-10-26",
+  "sources": {
+    "tse_catalog": {
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6258/config/mun-e006258-cm.json",
+      "sha256": "e4a2f2d45bac325f486e1866973fd65ae86744896d0f19e791b0bbb58d86e839"
+    },
+    "geonames_cities": {
+      "url": "https://download.geonames.org/export/dump/cities1000.zip",
+      "sha256": "289fa72adcf173bdd3ae23b12f2e4a63d29c096877eb3eba54a595fa26abc73f"
+    },
+    "geonames_countries": {
+      "url": "https://download.geonames.org/export/dump/countryInfo.txt",
+      "sha256": "c55f638cfaafb4fe45a9aa15120a0f1f78e8a34a8e1847d7b9320cf740fbc9ab"
+    }
+  },
+  "note": "Geografia GeoNames com correspondências de nomes revisadas pela aplicação. Votação vem exclusivamente do TSE 2026. Países e territórios são apresentados separadamente.",
+  "cities": [
+    {
+      "tse_code": "29254",
+      "name": "ABIDJÃ",
+      "country_code": "CIV",
+      "country_iso2": "CI",
+      "country_name": "Costa do Marfim",
+      "lat": 5.35444,
+      "lon": -4.00167,
+      "evidence": {
+        "geonames_id": "2293538",
+        "geonames_name": "Abidjan",
+        "url": "https://www.geonames.org/2293538",
+        "method": "reviewed_name_and_country"
+      }
+    },
+    {
+      "tse_code": "29262",
+      "name": "ABU DHABI",
+      "country_code": "ARE",
+      "country_iso2": "AE",
+      "country_name": "Emirados Árabes Unidos",
+      "lat": 24.45118,
+      "lon": 54.39696,
+      "evidence": {
+        "geonames_id": "292968",
+        "geonames_name": "Abu Dhabi",
+        "url": "https://www.geonames.org/292968",
+        "method": "unique_country_name_match"
+      }
+    },
+    {
+      "tse_code": "99198",
+      "name": "ABUJA",
+      "country_code": "NGA",
+      "country_iso2": "NG",
+      "country_name": "Nigéria",
+      "lat": 9.05785,
+      "lon": 7.49508,
+      "evidence": {
+        "geonames_id": "2352778",
+        "geonames_name": "Abuja",
+        "url": "https://www.geonames.org/2352778",
+        "method": "unique_country_name_match"
+      }
+    },
+    {
+      "tse_code": "29270",
+      "name": "ACCRA",
+      "country_code": "GHA",
+      "country_iso2": "GH",
+      "country_name": "Gana",
+      "lat": 5.55602,
+      "lon": -0.1969,
+      "evidence": {
+        "geonames_id": "2306104",
+        "geonames_name": "Accra",
+        "url": "https://www.geonames.org/2306104",
+        "method": "unique_country_name_match"
+      }
+    },
+    {
+      "tse_code": "99325",
+      "name": "ADIS ABEBA",
+      "country_code": "ETH",
+      "country_iso2": "ET",
+      "country_name": "Etiópia",
+      "lat": 9.02497,
+      "lon": 38.74689,
+      "evidence": {
+        "geonames_id": "344979",
+        "geonames_name": "Addis Ababa",
+        "url": "https://www.geonames.org/344979",
+        "method": "unique_country_name_match"
+      }
+    },
+    {
+      "tse_code": "30457",
+      "name": "AMSTERDÃ",
+      "country_code": "NLD",
+      "country_iso2": "NL",
+      "country_name": "Países Baixos",
+      "lat": 52.37403,
+      "lon": 4.88969,
+      "evidence": {
+        "geonames_id": "2759794",
+        "geonames_name": "Amsterdam",
+        "url": "https://www.geonames.org/2759794",
+        "method": "unique_country_name_match"
+      }
+    },
+    {
+      "tse_code": "29289",
+      "name": "AMÃ",
+      "country_code": "JOR",
+      "country_iso2": "JO",
+      "country_name": "Jordânia",
+      "lat": 31.95522,
+      "lon": 35.94503,
+      "evidence": {
+        "geonames_id": "250441",
+        "geonames_name": "Amman",
+        "url": "https://www.geonames.org/250441",
+        "method": "reviewed_name_and_country"
+      }
+    },
+    {
+      "tse_code": "29297",
+      "name": "ANCARA",
+      "country_code": "TUR",
+      "country_iso2": "TR",
+      "country_name": "Turquia",
+      "lat": 39.91987,
+      "lon": 32.85427,
+      "evidence": {
+        "geonames_id": "323786",
+        "geonames_name": "Ankara",
+        "url": "https://www.geonames.org/323786",
+        "method": "unique_country_name_match"
+      }
+    },
+    {
+      "tse_code": "29300",
+      "name": "ARGEL",
+      "country_code": "DZA",
+      "country_iso2": "DZ",
+      "country_name": "Argélia",
+      "lat": 36.73225,
+      "lon": 3.08746,
+      "evidence": {
+        "geonames_id": "2507480",
+        "geonames_name": "Algiers",
+        "url": "https://www.geonames.org/2507480",
+        "method": "reviewed_name_and_country"
+      }
+    },
+    {
+      "tse_code": "29319",
+      "name": "ARTIGAS",
+      "country_code": "URY",
+      "country_iso2": "UY",
+      "country_name": "Uruguai",
+      "lat": -30.40431,
+      "lon": -56.46926,
+      "evidence": {
+        "geonames_id": "3443758",
+        "geonames_name": "Artigas",
+        "url": "https://www.geonames.org/3443758",
+        "method": "unique_country_name_match"
+      }
+    },
+    {
+      "tse_code": "29327",
+      "name": "ASSUNÇÃO",
+      "country_code": "PRY",
+      "country_iso2": "PY",
+      "country_name": "Paraguai",
+      "lat": -25.28646,
+      "lon": -57.647,
+      "evidence": {
+        "geonames_id": "3439389",
+        "geonames_name": "Asunción",
+        "url": "https://www.geonames.org/3439389",
+        "method": "reviewed_name_and_country"
+      }
+    },
+    {
+      "tse_code": "39241",
+      "name": "ASTANA",
+      "country_code": "KAZ",
+      "country_iso2": "KZ",
+      "country_name": "Cazaquistão",
+      "lat": 51.1801,
+      "lon": 71.44598,
+      "evidence": {
+        "geonames_id": "1526273",
+        "geonames_name": "Astana",
+        "url": "https://www.geonames.org/1526273",
+        "method": "reviewed_name_and_country"
+      }
+    },
+    {
+      "tse_code": "29335",
+      "name": "ATENAS",
+      "country_code": "GRC",
+      "country_iso2": "GR",
+      "country_name": "Grécia",
+      "lat": 37.98376,
+      "lon": 23.72784,
+      "evidence": {
+        "geonames_id": "264371",
+        "geonames_name": "Athens",
+        "url": "https://www.geonames.org/264371",
+        "method": "reviewed_name_and_country"
+      }
+    },
+    {
+      "tse_code": "39080",
+      "name": "ATLANTA",
+      "country_code": "USA",
+      "country_iso2": "US",
+      "country_name": "Estados Unidos",
+      "lat": 33.749,
+      "lon": -84.38798,
+      "evidence": {
+        "geonames_id": "4180439",
+        "geonames_name": "Atlanta",
+        "url": "https://www.geonames.org/4180439",
+        "method": "unique_country_name_match"
+      }
+    },
+    {
+      "tse_code": "99171",
+      "name": "BAGDÁ",
+      "country_code": "IRQ",
+      "country_iso2": "IQ",
+      "country_name": "Iraque",
+      "lat": 33.34058,
+      "lon": 44.40088,
+      "evidence": {
+        "geonames_id": "98182",
+        "geonames_name": "Baghdad",
+        "url": "https://www.geonames.org/98182",
+        "method": "unique_country_name_match"
+      }
+    },
+    {
+      "tse_code": "39128",
+      "name": "BAKU",
+      "country_code": "AZE",
+      "country_iso2": "AZ",
+      "country_name": "Azerbaijão",
+      "lat": 40.37767,
+      "lon": 49.89201,
+      "evidence": {
+        "geonames_id": "587084",
+        "geonames_name": "Baku",
+        "url": "https://www.geonames.org/587084",
+        "method": "unique_country_name_match"
+      }
+    },
+    {
+      "tse_code": "99350",
+      "name": "BAMAKO",
+      "country_code": "MLI",
+      "country_iso2": "ML",
+      "country_name": "Mali",
+      "lat": 12.60915,
+      "lon": -7.97522,
+      "evidence": {
+        "geonames_id": "2460596",
+        "geonames_name": "Bamako",
+        "url": "https://www.geonames.org/2460596",
+        "method": "unique_country_name_match"
+      }
+    },
+    {
+      "tse_code": "29343",
+      "name": "BANGKOK",
+      "country_code": "THA",
+      "country_iso2": "TH",
+      "country_name": "Tailândia",
+      "lat": 13.75398,
+      "lon": 100.50144,
+      "evidence": {
+        "geonames_id": "1609350",
+        "geonames_name": "Bangkok",
+        "url": "https://www.geonames.org/1609350",
+        "method": "unique_country_name_match"
+      }
+    },
+    {
+      "tse_code": "29351",
+      "name": "BARCELONA",
+      "country_code": "ESP",
+      "country_iso2": "ES",
+      "country_name": "Espanha",
+      "lat": 41.38879,
+      "lon": 2.15899,
+      "evidence": {
+        "geonames_id": "3128760",
+        "geonames_name": "Barcelona",
+        "url": "https://www.geonames.org/3128760",
+        "method": "reviewed_name_and_country"
+      }
+    },
+    {
+      "tse_code": "99473",
+      "name": "BAREIN",
+      "country_code": "BHR",
+      "country_iso2": "BH",
+      "country_name": "Barein",
+      "lat": 26.22787,
+      "lon": 50.58565,
+      "evidence": {
+        "geonames_id": "290340",
+        "geonames_name": "Manama",
+        "url": "https://www.geonames.org/290340",
+        "method": "reviewed_name_and_country"
+      }
+    },
+    {
+      "tse_code": "29360",
+      "name": "BEIRUTE",
+      "country_code": "LBN",
+      "country_iso2": "LB",
+      "country_name": "Líbano",
+      "lat": 33.89332,
+      "lon": 35.50157,
+      "evidence": {
+        "geonames_id": "276781",
+        "geonames_name": "Beirut",
+        "url": "https://www.geonames.org/276781",
+        "method": "unique_country_name_match"
+      }
+    },
+    {
+      "tse_code": "29378",
+      "name": "BELGRADO",
+      "country_code": "SRB",
+      "country_iso2": "RS",
+      "country_name": "Sérvia",
+      "lat": 44.80401,
+      "lon": 20.46513,
+      "evidence": {
+        "geonames_id": "792680",
+        "geonames_name": "Belgrade",
+        "url": "https://www.geonames.org/792680",
+        "method": "unique_country_name_match"
+      }
+    },
+    {
+      "tse_code": "38881",
+      "name": "BELMOPAN",
+      "country_code": "BLZ",
+      "country_iso2": "BZ",
+      "country_name": "Belize",
+      "lat": 17.25376,
+      "lon": -88.76401,
+      "evidence": {
+        "geonames_id": "3582672",
+        "geonames_name": "Belmopan",
+        "url": "https://www.geonames.org/3582672",
+        "method": "unique_country_name_match"
+      }
+    },
+    {
+      "tse_code": "29386",
+      "name": "BERLIM",
+      "country_code": "DEU",
+      "country_iso2": "DE",
+      "country_name": "Alemanha",
+      "lat": 52.52437,
+      "lon": 13.41053,
+      "evidence": {
+        "geonames_id": "2950159",
+        "geonames_name": "Berlin",
+        "url": "https://www.geonames.org/2950159",
+        "method": "reviewed_name_and_country"
+      }
+    },
+    {
+      "tse_code": "29394",
+      "name": "BISSAU",
+      "country_code": "GNB",
+      "country_iso2": "GW",
+      "country_name": "Guiné-Bissau",
+      "lat": 11.86357,
+      "lon": -15.59767,
+      "evidence": {
+        "geonames_id": "2374775",
+        "geonames_name": "Bissau",
+        "url": "https://www.geonames.org/2374775",
+        "method": "reviewed_name_and_country"
+      }
+    },
+    {
+      "tse_code": "29408",
+      "name": "BOGOTÁ",
+      "country_code": "COL",
+      "country_iso2": "CO",
+      "country_name": "Colômbia",
+      "lat": 4.60971,
+      "lon": -74.08175,
+      "evidence": {
+        "geonames_id": "3688689",
+        "geonames_name": "Bogotá",
+        "url": "https://www.geonames.org/3688689",
+        "method": "reviewed_name_and_country"
+      }
+    },
+    {
+      "tse_code": "29416",
+      "name": "BOSTON",
+      "country_code": "USA",
+      "country_iso2": "US",
+      "country_name": "Estados Unidos",
+      "lat": 42.35843,
+      "lon": -71.05977,
+      "evidence": {
+        "geonames_id": "4930956",
+        "geonames_name": "Boston",
+        "url": "https://www.geonames.org/4930956",
+        "method": "reviewed_name_and_country"
+      }
+    },
+    {
+      "tse_code": "39209",
+      "name": "BRATISLAVA",
+      "country_code": "SVK",
+      "country_iso2": "SK",
+      "country_name": "Eslováquia",
+      "lat": 48.14816,
+      "lon": 17.10674,
+      "evidence": {
+        "geonames_id": "3060972",
+        "geonames_name": "Bratislava",
+        "url": "https://www.geonames.org/3060972",
+        "method": "unique_country_name_match"
+      }
+    },
+    {
+      "tse_code": "39187",
+      "name": "BRAZZAVILLE",
+      "country_code": "COG",
+      "country_iso2": "CG",
+      "country_name": "República do Congo",
+      "lat": -4.26613,
+      "lon": 15.28318,
+      "evidence": {
+        "geonames_id": "2260535",
+        "geonames_name": "Brazzaville",
+        "url": "https://www.geonames.org/2260535",
+        "method": "reviewed_name_and_country"
+      }
+    },
+    {
+      "tse_code": "29424",
+      "name": "BRIDGETOWN",
+      "country_code": "BRB",
+      "country_iso2": "BB",
+      "country_name": "Barbados",
+      "lat": 13.10732,
+      "lon": -59.62021,
+      "evidence": {
+        "geonames_id": "3374036",
+        "geonames_name": "Bridgetown",
+        "url": "https://www.geonames.org/3374036",
+        "method": "reviewed_name_and_country"
+      }
+    },
+    {
+      "tse_code": "29432",
+      "name": "BRUXELAS",
+      "country_code": "BEL",
+      "country_iso2": "BE",
+      "country_name": "Bélgica",
+      "lat": 50.85045,
+      "lon": 4.34878,
+      "evidence": {
+        "geonames_id": "2800866",
+        "geonames_name": "Brussels",
+        "url": "https://www.geonames.org/2800866",
+        "method": "unique_country_name_match"
+      }
+    },
+    {
+      "tse_code": "29440",
+      "name": "BUCARESTE",
+      "country_code": "ROU",
+      "country_iso2": "RO",
+      "country_name": "Romênia",
+      "lat": 44.43225,
+      "lon": 26.10626,
+      "evidence": {
+        "geonames_id": "683506",
+        "geonames_name": "Bucharest",
+        "url": "https://www.geonames.org/683506",
+        "method": "unique_country_name_match"
+      }
+    },
+    {
+      "tse_code": "29459",
+      "name": "BUDAPESTE",
+      "country_code": "HUN",
+      "country_iso2": "HU",
+      "country_name": "Hungria",
+      "lat": 47.49835,
+      "lon": 19.04045,
+      "evidence": {
+        "geonames_id": "3054643",
+        "geonames_name": "Budapest",
+        "url": "https://www.geonames.org/3054643",
+        "method": "unique_country_name_match"
+      }
+    },
+    {
+      "tse_code": "29467",
+      "name": "BUENOS AIRES",
+      "country_code": "ARG",
+      "country_iso2": "AR",
+      "country_name": "Argentina",
+      "lat": -34.61315,
+      "lon": -58.37723,
+      "evidence": {
+        "geonames_id": "3435910",
+        "geonames_name": "Buenos Aires",
+        "url": "https://www.geonames.org/3435910",
+        "method": "reviewed_name_and_country"
+      }
+    },
+    {
+      "tse_code": "29475",
+      "name": "CAIENA",
+      "country_code": "GUF",
+      "country_iso2": "GF",
+      "country_name": "Guiana Francesa",
+      "lat": 4.9381,
+      "lon": -52.33455,
+      "evidence": {
+        "geonames_id": "3382160",
+        "geonames_name": "Cayenne",
+        "url": "https://www.geonames.org/3382160",
+        "method": "unique_country_name_match"
+      }
+    },
+    {
+      "tse_code": "29483",
+      "name": "CAIRO",
+      "country_code": "EGY",
+      "country_iso2": "EG",
+      "country_name": "Egito",
+      "lat": 30.06263,
+      "lon": 31.24967,
+      "evidence": {
+        "geonames_id": "360630",
+        "geonames_name": "Cairo",
+        "url": "https://www.geonames.org/360630",
+        "method": "reviewed_name_and_country"
+      }
+    },
+    {
+      "tse_code": "29491",
+      "name": "CAMBERRA",
+      "country_code": "AUS",
+      "country_iso2": "AU",
+      "country_name": "Austrália",
+      "lat": -35.28346,
+      "lon": 149.12807,
+      "evidence": {
+        "geonames_id": "2172517",
+        "geonames_name": "Canberra",
+        "url": "https://www.geonames.org/2172517",
+        "method": "unique_country_name_match"
+      }
+    },
+    {
+      "tse_code": "30651",
+      "name": "CANTÃO",
+      "country_code": "CHN",
+      "country_iso2": "CN",
+      "country_name": "China",
+      "lat": 23.11667,
+      "lon": 113.25,
+      "evidence": {
+        "geonames_id": "1809858",
+        "geonames_name": "Guangzhou",
+        "url": "https://www.geonames.org/1809858",
+        "method": "unique_country_name_match"
+      }
+    },
+    {
+      "tse_code": "29505",
+      "name": "CARACAS",
+      "country_code": "VEN",
+      "country_iso2": "VE",
+      "country_name": "Venezuela",
+      "lat": 10.48801,
+      "lon": -66.87919,
+      "evidence": {
+        "geonames_id": "3646738",
+        "geonames_name": "Caracas",
+        "url": "https://www.geonames.org/3646738",
+        "method": "reviewed_name_and_country"
+      }
+    },
+    {
+      "tse_code": "99384",
+      "name": "CASTRIES",
+      "country_code": "LCA",
+      "country_iso2": "LC",
+      "country_name": "Santa Lúcia",
+      "lat": 13.9957,
+      "lon": -61.00614,
+      "evidence": {
+        "geonames_id": "3576812",
+        "geonames_name": "Castries",
+        "url": "https://www.geonames.org/3576812",
+        "method": "reviewed_name_and_country"
+      }
+    },
+    {
+      "tse_code": "29513",
+      "name": "CHICAGO",
+      "country_code": "USA",
+      "country_iso2": "US",
+      "country_name": "Estados Unidos",
+      "lat": 41.85003,
+      "lon": -87.65005,
+      "evidence": {
+        "geonames_id": "4887398",
+        "geonames_name": "Chicago",
+        "url": "https://www.geonames.org/4887398",
+        "method": "unique_country_name_match"
+      }
+    },
+    {
+      "tse_code": "29521",
+      "name": "CHUY",
+      "country_code": "URY",
+      "country_iso2": "UY",
+      "country_name": "Uruguai",
+      "lat": -33.69792,
+      "lon": -53.45926,
+      "evidence": {
+        "geonames_id": "3443061",
+        "geonames_name": "Chui",
+        "url": "https://www.geonames.org/3443061",
+        "method": "reviewed_name_and_country"
+      }
+    },
+    {
+      "tse_code": "29530",
+      "name": "CIDADE DO CABO",
+      "country_code": "ZAF",
+      "country_iso2": "ZA",
+      "country_name": "África do Sul",
+      "lat": -33.92584,
+      "lon": 18.42322,
+      "evidence": {
+        "geonames_id": "3369157",
+        "geonames_name": "Cape Town",
+        "url": "https://www.geonames.org/3369157",
+        "method": "unique_country_name_match"
+      }
+    },
+    {
+      "tse_code": "29556",
+      "name": "CIUDAD DEL ESTE",
+      "country_code": "PRY",
+      "country_iso2": "PY",
+      "country_name": "Paraguai",
+      "lat": -25.5036,
+      "lon": -54.65067,
+      "evidence": {
+        "geonames_id": "3439101",
+        "geonames_name": "Ciudad del Este",
+        "url": "https://www.geonames.org/3439101",
+        "method": "unique_country_name_match"
+      }
+    },
+    {
+      "tse_code": "29564",
+      "name": "CIUDAD GUAYANA",
+      "country_code": "VEN",
+      "country_iso2": "VE",
+      "country_name": "Venezuela",
+      "lat": 8.35122,
+      "lon": -62.64102,
+      "evidence": {
+        "geonames_id": "3645528",
+        "geonames_name": "Ciudad Guayana",
+        "url": "https://www.geonames.org/3645528",
+        "method": "unique_country_name_match"
+      }
+    },
+    {
+      "tse_code": "99210",
+      "name": "COBIJA",
+      "country_code": "BOL",
+      "country_iso2": "BO",
+      "country_name": "Bolívia",
+      "lat": -11.02671,
+      "lon": -68.76918,
+      "evidence": {
+        "geonames_id": "3919998",
+        "geonames_name": "Cobija",
+        "url": "https://www.geonames.org/3919998",
+        "method": "unique_country_name_match"
+      }
+    },
+    {
+      "tse_code": "29572",
+      "name": "COCHABAMBA",
+      "country_code": "BOL",
+      "country_iso2": "BO",
+      "country_name": "Bolívia",
+      "lat": -17.38195,
+      "lon": -66.15995,
+      "evidence": {
+        "geonames_id": "3919968",
+        "geonames_name": "Cochabamba",
+        "url": "https://www.geonames.org/3919968",
+        "method": "reviewed_name_and_country"
+      }
+    },
+    {
+      "tse_code": "30929",
+      "name": "COLOMBO",
+      "country_code": "LKA",
+      "country_iso2": "LK",
+      "country_name": "Sri Lanka",
+      "lat": 6.93548,
+      "lon": 79.84868,
+      "evidence": {
+        "geonames_id": "1248991",
+        "geonames_name": "Colombo",
+        "url": "https://www.geonames.org/1248991",
+        "method": "reviewed_name_and_country"
+      }
+    },
+    {
+      "tse_code": "38903",
+      "name": "CONACRI",
+      "country_code": "GIN",
+      "country_iso2": "GN",
+      "country_name": "Guiné",
+      "lat": 9.53795,
+      "lon": -13.67729,
+      "evidence": {
+        "geonames_id": "2422465",
+        "geonames_name": "Conakry",
+        "url": "https://www.geonames.org/2422465",
+        "method": "unique_country_name_match"
+      }
+    },
+    {
+      "tse_code": "29580",
+      "name": "CONCEPCIÓN",
+      "country_code": "PRY",
+      "country_iso2": "PY",
+      "country_name": "Paraguai",
+      "lat": -23.39985,
+      "lon": -57.43236,
+      "evidence": {
+        "geonames_id": "3438834",
+        "geonames_name": "Concepción",
+        "url": "https://www.geonames.org/3438834",
+        "method": "reviewed_name_and_country"
+      }
+    },
+    {
+      "tse_code": "29599",
+      "name": "COPENHAGUE",
+      "country_code": "DNK",
+      "country_iso2": "DK",
+      "country_name": "Dinamarca",
+      "lat": 55.67594,
+      "lon": 12.56553,
+      "evidence": {
+        "geonames_id": "2618425",
+        "geonames_name": "Copenhagen",
+        "url": "https://www.geonames.org/2618425",
+        "method": "unique_country_name_match"
+      }
+    },
+    {
+      "tse_code": "38920",
+      "name": "COTONOU",
+      "country_code": "BEN",
+      "country_iso2": "BJ",
+      "country_name": "Benin",
+      "lat": 6.36536,
+      "lon": 2.41833,
+      "evidence": {
+        "geonames_id": "2394819",
+        "geonames_name": "Cotonou",
+        "url": "https://www.geonames.org/2394819",
+        "method": "unique_country_name_match"
+      }
+    },
+    {
+      "tse_code": "29602",
+      "name": "CÓRDOBA",
+      "country_code": "ARG",
+      "country_iso2": "AR",
+      "country_name": "Argentina",
+      "lat": -31.40648,
+      "lon": -64.18853,
+      "evidence": {
+        "geonames_id": "3860259",
+        "geonames_name": "Córdoba",
+        "url": "https://www.geonames.org/3860259",
+        "method": "reviewed_name_and_country"
+      }
+    },
+    {
+      "tse_code": "29610",
+      "name": "DACAR",
+      "country_code": "SEN",
+      "country_iso2": "SN",
+      "country_name": "Senegal",
+      "lat": 14.6937,
+      "lon": -17.44406,
+      "evidence": {
+        "geonames_id": "2253354",
+        "geonames_name": "Dakar",
+        "url": "https://www.geonames.org/2253354",
+        "method": "unique_country_name_match"
+      }
+    },
+    {
+      "tse_code": "29629",
+      "name": "DACCA",
+      "country_code": "BGD",
+      "country_iso2": "BD",
+      "country_name": "Bangladesh",
+      "lat": 23.7104,
+      "lon": 90.40744,
+      "evidence": {
+        "geonames_id": "1185241",
+        "geonames_name": "Dhaka",
+        "url": "https://www.geonames.org/1185241",
+        "method": "unique_country_name_match"
+      }
+    },
+    {
+      "tse_code": "29637",
+      "name": "DAMASCO",
+      "country_code": "SYR",
+      "country_iso2": "SY",
+      "country_name": "Síria",
+      "lat": 33.5102,
+      "lon": 36.29128,
+      "evidence": {
+        "geonames_id": "170654",
+        "geonames_name": "Damascus",
+        "url": "https://www.geonames.org/170654",
+        "method": "reviewed_name_and_country"
+      }
+    },
+    {
+      "tse_code": "38962",
+      "name": "DAR ES SALAAM",
+      "country_code": "TZA",
+      "country_iso2": "TZ",
+      "country_name": "Tanzânia",
+      "lat": -6.82349,
+      "lon": 39.26951,
+      "evidence": {
+        "geonames_id": "160263",
+        "geonames_name": "Dar es Salaam",
+        "url": "https://www.geonames.org/160263",
+        "method": "unique_country_name_match"
+      }
+    },
+    {
+      "tse_code": "29653",
+      "name": "DOHA",
+      "country_code": "QAT",
+      "country_iso2": "QA",
+      "country_name": "Catar",
+      "lat": 25.28545,
+      "lon": 51.53096,
+      "evidence": {
+        "geonames_id": "290030",
+        "geonames_name": "Doha",
+        "url": "https://www.geonames.org/290030",
+        "method": "reviewed_name_and_country"
+      }
+    },
+    {
+      "tse_code": "29661",
+      "name": "DUBLIN",
+      "country_code": "IRL",
+      "country_iso2": "IE",
+      "country_name": "Irlanda",
+      "lat": 53.33306,
+      "lon": -6.24889,
+      "evidence": {
+        "geonames_id": "2964574",
+        "geonames_name": "Dublin",
+        "url": "https://www.geonames.org/2964574",
+        "method": "reviewed_name_and_country"
+      }
+    },
+    {
+      "tse_code": "29645",
+      "name": "DÍLI",
+      "country_code": "TLS",
+      "country_iso2": "TL",
+      "country_name": "Timor-Leste",
+      "lat": -8.55861,
+      "lon": 125.57361,
+      "evidence": {
+        "geonames_id": "1645457",
+        "geonames_name": "Dili",
+        "url": "https://www.geonames.org/1645457",
+        "method": "reviewed_name_and_country"
+      }
+    },
+    {
+      "tse_code": "99503",
+      "name": "EDIMBURGO",
+      "country_code": "GBR",
+      "country_iso2": "GB",
+      "country_name": "Reino Unido",
+      "lat": 55.95206,
+      "lon": -3.19648,
+      "evidence": {
+        "geonames_id": "2650225",
+        "geonames_name": "Edinburgh",
+        "url": "https://www.geonames.org/2650225",
+        "method": "unique_country_name_match"
+      }
+    },
+    {
+      "tse_code": "29670",
+      "name": "ENCARNACIÓN",
+      "country_code": "PRY",
+      "country_iso2": "PY",
+      "country_name": "Paraguai",
+      "lat": -27.33176,
+      "lon": -55.86662,
+      "evidence": {
+        "geonames_id": "3438735",
+        "geonames_name": "Encarnación",
+        "url": "https://www.geonames.org/3438735",
+        "method": "reviewed_name_and_country"
+      }
+    },
+    {
+      "tse_code": "29688",
+      "name": "ESTOCOLMO",
+      "country_code": "SWE",
+      "country_iso2": "SE",
+      "country_name": "Suécia",
+      "lat": 59.32938,
+      "lon": 18.06871,
+      "evidence": {
+        "geonames_id": "2673730",
+        "geonames_name": "Stockholm",
+        "url": "https://www.geonames.org/2673730",
+        "method": "unique_country_name_match"
+      }
+    },
+    {
+      "tse_code": "30961",
+      "name": "FARO",
+      "country_code": "PRT",
+      "country_iso2": "PT",
+      "country_name": "Portugal",
+      "lat": 37.01869,
+      "lon": -7.92716,
+      "evidence": {
+        "geonames_id": "2268339",
+        "geonames_name": "Faro",
+        "url": "https://www.geonames.org/2268339",
+        "method": "reviewed_name_and_country"
+      }
+    },
+    {
+      "tse_code": "29696",
+      "name": "FRANKFURT",
+      "country_code": "DEU",
+      "country_iso2": "DE",
+      "country_name": "Alemanha",
+      "lat": 50.11552,
+      "lon": 8.68417,
+      "evidence": {
+        "geonames_id": "2925533",
+        "geonames_name": "Frankfurt am Main",
+        "url": "https://www.geonames.org/2925533",
+        "method": "reviewed_name_and_country"
+      }
+    },
+    {
+      "tse_code": "30669",
+      "name": "GABORONE",
+      "country_code": "BWA",
+      "country_iso2": "BW",
+      "country_name": "Botsuana",
+      "lat": -24.65451,
+      "lon": 25.90859,
+      "evidence": {
+        "geonames_id": "933773",
+        "geonames_name": "Gaborone",
+        "url": "https://www.geonames.org/933773",
+        "method": "unique_country_name_match"
+      }
+    },
+    {
+      "tse_code": "29700",
+      "name": "GENEBRA",
+      "country_code": "CHE",
+      "country_iso2": "CH",
+      "country_name": "Suíça",
+      "lat": 46.20222,
+      "lon": 6.14569,
+      "evidence": {
+        "geonames_id": "2660646",
+        "geonames_name": "Geneva",
+        "url": "https://www.geonames.org/2660646",
+        "method": "unique_country_name_match"
+      }
+    },
+    {
+      "tse_code": "29718",
+      "name": "GEORGETOWN",
+      "country_code": "GUY",
+      "country_iso2": "GY",
+      "country_name": "Guiana",
+      "lat": 6.80448,
+      "lon": -58.15527,
+      "evidence": {
+        "geonames_id": "3378644",
+        "geonames_name": "Georgetown",
+        "url": "https://www.geonames.org/3378644",
+        "method": "reviewed_name_and_country"
+      }
+    },
+    {
+      "tse_code": "98000",
+      "name": "GUATEMALA",
+      "country_code": "GTM",
+      "country_iso2": "GT",
+      "country_name": "Guatemala",
+      "lat": 14.64072,
+      "lon": -90.51327,
+      "evidence": {
+        "geonames_id": "3598132",
+        "geonames_name": "Guatemala City",
+        "url": "https://www.geonames.org/3598132",
+        "method": "unique_country_name_match"
+      }
+    },
+    {
+      "tse_code": "29742",
+      "name": "HAMAMATSU",
+      "country_code": "JPN",
+      "country_iso2": "JP",
+      "country_name": "Japão",
+      "lat": 34.7,
+      "lon": 137.73333,
+      "evidence": {
+        "geonames_id": "1863289",
+        "geonames_name": "Hamamatsu",
+        "url": "https://www.geonames.org/1863289",
+        "method": "unique_country_name_match"
+      }
+    },
+    {
+      "tse_code": "29750",
+      "name": "HANÓI",
+      "country_code": "VNM",
+      "country_iso2": "VN",
+      "country_name": "Vietnã",
+      "lat": 21.0245,
+      "lon": 105.84117,
+      "evidence": {
+        "geonames_id": "1581130",
+        "geonames_name": "Hanoi",
+        "url": "https://www.geonames.org/1581130",
+        "method": "unique_country_name_match"
+      }
+    },
+    {
+      "tse_code": "29769",
+      "name": "HARARE",
+      "country_code": "ZWE",
+      "country_iso2": "ZW",
+      "country_name": "Zimbábue",
+      "lat": -17.82772,
+      "lon": 31.05337,
+      "evidence": {
+        "geonames_id": "890299",
+        "geonames_name": "Harare",
+        "url": "https://www.geonames.org/890299",
+        "method": "unique_country_name_match"
+      }
+    },
+    {
+      "tse_code": "30902",
+      "name": "HARTFORD",
+      "country_code": "USA",
+      "country_iso2": "US",
+      "country_name": "Estados Unidos",
+      "lat": 41.76371,
+      "lon": -72.68509,
+      "evidence": {
+        "geonames_id": "4835797",
+        "geonames_name": "Hartford",
+        "url": "https://www.geonames.org/4835797",
+        "method": "reviewed_name_and_country"
+      }
+    },
+    {
+      "tse_code": "29777",
+      "name": "HAVANA",
+      "country_code": "CUB",
+      "country_iso2": "CU",
+      "country_name": "Cuba",
+      "lat": 23.13302,
+      "lon": -82.38304,
+      "evidence": {
+        "geonames_id": "3553478",
+        "geonames_name": "Havana",
+        "url": "https://www.geonames.org/3553478",
+        "method": "reviewed_name_and_country"
+      }
+    },
+    {
+      "tse_code": "29785",
+      "name": "HELSINQUE",
+      "country_code": "FIN",
+      "country_iso2": "FI",
+      "country_name": "Finlândia",
+      "lat": 60.16952,
+      "lon": 24.93545,
+      "evidence": {
+        "geonames_id": "658225",
+        "geonames_name": "Helsinki",
+        "url": "https://www.geonames.org/658225",
+        "method": "reviewed_name_and_country"
+      }
+    },
+    {
+      "tse_code": "29793",
+      "name": "HONG KONG",
+      "country_code": "HKG",
+      "country_iso2": "HK",
+      "country_name": "Hong Kong, RAE da China",
+      "lat": 22.27832,
+      "lon": 114.17469,
+      "evidence": {
+        "geonames_id": "1819729",
+        "geonames_name": "Hong Kong",
+        "url": "https://www.geonames.org/1819729",
+        "method": "unique_country_name_match"
+      }
+    },
+    {
+      "tse_code": "29807",
+      "name": "HOUSTON",
+      "country_code": "USA",
+      "country_iso2": "US",
+      "country_name": "Estados Unidos",
+      "lat": 29.76328,
+      "lon": -95.36327,
+      "evidence": {
+        "geonames_id": "4699066",
+        "geonames_name": "Houston",
+        "url": "https://www.geonames.org/4699066",
+        "method": "reviewed_name_and_country"
+      }
+    },
+    {
+      "tse_code": "29815",
+      "name": "IAUNDÊ",
+      "country_code": "CMR",
+      "country_iso2": "CM",
+      "country_name": "Camarões",
+      "lat": 3.86667,
+      "lon": 11.51667,
+      "evidence": {
+        "geonames_id": "2220957",
+        "geonames_name": "Yaoundé",
+        "url": "https://www.geonames.org/2220957",
+        "method": "unique_country_name_match"
+      }
+    },
+    {
+      "tse_code": "38989",
+      "name": "IEREVAN",
+      "country_code": "ARM",
+      "country_iso2": "AM",
+      "country_name": "Armênia",
+      "lat": 40.17765,
+      "lon": 44.5126,
+      "evidence": {
+        "geonames_id": "616052",
+        "geonames_name": "Yerevan",
+        "url": "https://www.geonames.org/616052",
+        "method": "unique_country_name_match"
+      }
+    },
+    {
+      "tse_code": "29823",
+      "name": "IQUITOS",
+      "country_code": "PER",
+      "country_iso2": "PE",
+      "country_name": "Peru",
+      "lat": -3.74814,
+      "lon": -73.2529,
+      "evidence": {
+        "geonames_id": "3696183",
+        "geonames_name": "Iquitos",
+        "url": "https://www.geonames.org/3696183",
+        "method": "unique_country_name_match"
+      }
+    },
+    {
+      "tse_code": "29831",
+      "name": "ISLAMABADE",
+      "country_code": "PAK",
+      "country_iso2": "PK",
+      "country_name": "Paquistão",
+      "lat": 33.72148,
+      "lon": 73.04329,
+      "evidence": {
+        "geonames_id": "1176615",
+        "geonames_name": "Islamabad",
+        "url": "https://www.geonames.org/1176615",
+        "method": "unique_country_name_match"
+      }
+    },
+    {
+      "tse_code": "39306",
+      "name": "ISTAMBUL",
+      "country_code": "TUR",
+      "country_iso2": "TR",
+      "country_name": "Turquia",
+      "lat": 41.01384,
+      "lon": 28.94966,
+      "evidence": {
+        "geonames_id": "745044",
+        "geonames_name": "Istanbul",
+        "url": "https://www.geonames.org/745044",
+        "method": "unique_country_name_match"
+      }
+    },
+    {
+      "tse_code": "29840",
+      "name": "JACARTA",
+      "country_code": "IDN",
+      "country_iso2": "ID",
+      "country_name": "Indonésia",
+      "lat": -6.21462,
+      "lon": 106.84513,
+      "evidence": {
+        "geonames_id": "1642911",
+        "geonames_name": "Jakarta",
+        "url": "https://www.geonames.org/1642911",
+        "method": "unique_country_name_match"
+      }
+    },
+    {
+      "tse_code": "29173",
+      "name": "KATMANDU",
+      "country_code": "NPL",
+      "country_iso2": "NP",
+      "country_name": "Nepal",
+      "lat": 27.70169,
+      "lon": 85.3206,
+      "evidence": {
+        "geonames_id": "1283240",
+        "geonames_name": "Kathmandu",
+        "url": "https://www.geonames.org/1283240",
+        "method": "unique_country_name_match"
+      }
+    },
+    {
+      "tse_code": "29858",
+      "name": "KIEV",
+      "country_code": "UKR",
+      "country_iso2": "UA",
+      "country_name": "Ucrânia",
+      "lat": 50.45466,
+      "lon": 30.5238,
+      "evidence": {
+        "geonames_id": "703448",
+        "geonames_name": "Kyiv",
+        "url": "https://www.geonames.org/703448",
+        "method": "unique_country_name_match"
+      }
+    },
+    {
+      "tse_code": "99430",
+      "name": "KINGSTON-JAMAICA",
+      "country_code": "JAM",
+      "country_iso2": "JM",
+      "country_name": "Jamaica",
+      "lat": 17.99702,
+      "lon": -76.79358,
+      "evidence": {
+        "geonames_id": "3489854",
+        "geonames_name": "Kingston",
+        "url": "https://www.geonames.org/3489854",
+        "method": "reviewed_name_and_country"
+      }
+    },
+    {
+      "tse_code": "29874",
+      "name": "KINSHASA",
+      "country_code": "COD",
+      "country_iso2": "CD",
+      "country_name": "Congo - Kinshasa",
+      "lat": -4.32758,
+      "lon": 15.31357,
+      "evidence": {
+        "geonames_id": "2314302",
+        "geonames_name": "Kinshasa",
+        "url": "https://www.geonames.org/2314302",
+        "method": "unique_country_name_match"
+      }
+    },
+    {
+      "tse_code": "29882",
+      "name": "KUAITE",
+      "country_code": "KWT",
+      "country_iso2": "KW",
+      "country_name": "Kuwait",
+      "lat": 29.367,
+      "lon": 47.97429,
+      "evidence": {
+        "geonames_id": "285787",
+        "geonames_name": "Kuwait City",
+        "url": "https://www.geonames.org/285787",
+        "method": "reviewed_name_and_country"
+      }
+    },
+    {
+      "tse_code": "29890",
+      "name": "KUALA LUMPUR",
+      "country_code": "MYS",
+      "country_iso2": "MY",
+      "country_name": "Malásia",
+      "lat": 3.1412,
+      "lon": 101.68653,
+      "evidence": {
+        "geonames_id": "1735161",
+        "geonames_name": "Kuala Lumpur",
+        "url": "https://www.geonames.org/1735161",
+        "method": "unique_country_name_match"
+      }
+    },
+    {
+      "tse_code": "29904",
+      "name": "LA PAZ",
+      "country_code": "BOL",
+      "country_iso2": "BO",
+      "country_name": "Bolívia",
+      "lat": -16.5,
+      "lon": -68.15,
+      "evidence": {
+        "geonames_id": "3911925",
+        "geonames_name": "La Paz",
+        "url": "https://www.geonames.org/3911925",
+        "method": "reviewed_name_and_country"
+      }
+    },
+    {
+      "tse_code": "29912",
+      "name": "LAGOS",
+      "country_code": "NGA",
+      "country_iso2": "NG",
+      "country_name": "Nigéria",
+      "lat": 6.45407,
+      "lon": 3.39467,
+      "evidence": {
+        "geonames_id": "2332459",
+        "geonames_name": "Lagos",
+        "url": "https://www.geonames.org/2332459",
+        "method": "reviewed_name_and_country"
+      }
+    },
+    {
+      "tse_code": "29939",
+      "name": "LIBREVILLE",
+      "country_code": "GAB",
+      "country_iso2": "GA",
+      "country_name": "Gabão",
+      "lat": 0.39241,
+      "lon": 9.45356,
+      "evidence": {
+        "geonames_id": "2399697",
+        "geonames_name": "Libreville",
+        "url": "https://www.geonames.org/2399697",
+        "method": "reviewed_name_and_country"
+      }
+    },
+    {
+      "tse_code": "99341",
+      "name": "LILONGUE",
+      "country_code": "MWI",
+      "country_iso2": "MW",
+      "country_name": "Malaui",
+      "lat": -13.96692,
+      "lon": 33.78725,
+      "evidence": {
+        "geonames_id": "927967",
+        "geonames_name": "Lilongwe",
+        "url": "https://www.geonames.org/927967",
+        "method": "unique_country_name_match"
+      }
+    },
+    {
+      "tse_code": "29947",
+      "name": "LIMA",
+      "country_code": "PER",
+      "country_iso2": "PE",
+      "country_name": "Peru",
+      "lat": -12.04318,
+      "lon": -77.02824,
+      "evidence": {
+        "geonames_id": "3936456",
+        "geonames_name": "Lima",
+        "url": "https://www.geonames.org/3936456",
+        "method": "reviewed_name_and_country"
+      }
+    },
+    {
+      "tse_code": "29955",
+      "name": "LISBOA",
+      "country_code": "PRT",
+      "country_iso2": "PT",
+      "country_name": "Portugal",
+      "lat": 38.72509,
+      "lon": -9.1498,
+      "evidence": {
+        "geonames_id": "2267057",
+        "geonames_name": "Lisbon",
+        "url": "https://www.geonames.org/2267057",
+        "method": "unique_country_name_match"
+      }
+    },
+    {
+      "tse_code": "39160",
+      "name": "LIUBLIANA",
+      "country_code": "SVN",
+      "country_iso2": "SI",
+      "country_name": "Eslovênia",
+      "lat": 46.05108,
+      "lon": 14.50513,
+      "evidence": {
+        "geonames_id": "3196359",
+        "geonames_name": "Ljubljana",
+        "url": "https://www.geonames.org/3196359",
+        "method": "unique_country_name_match"
+      }
+    },
+    {
+      "tse_code": "29963",
+      "name": "LOMÉ",
+      "country_code": "TGO",
+      "country_iso2": "TG",
+      "country_name": "Togo",
+      "lat": 6.12874,
+      "lon": 1.22154,
+      "evidence": {
+        "geonames_id": "2365267",
+        "geonames_name": "Lomé",
+        "url": "https://www.geonames.org/2365267",
+        "method": "unique_country_name_match"
+      }
+    },
+    {
+      "tse_code": "29971",
+      "name": "LONDRES",
+      "country_code": "GBR",
+      "country_iso2": "GB",
+      "country_name": "Reino Unido",
+      "lat": 51.50853,
+      "lon": -0.12574,
+      "evidence": {
+        "geonames_id": "2643743",
+        "geonames_name": "London",
+        "url": "https://www.geonames.org/2643743",
+        "method": "reviewed_name_and_country"
+      }
+    },
+    {
+      "tse_code": "29980",
+      "name": "LOS ANGELES",
+      "country_code": "USA",
+      "country_iso2": "US",
+      "country_name": "Estados Unidos",
+      "lat": 34.05223,
+      "lon": -118.24368,
+      "evidence": {
+        "geonames_id": "5368361",
+        "geonames_name": "Los Angeles",
+        "url": "https://www.geonames.org/5368361",
+        "method": "reviewed_name_and_country"
+      }
+    },
+    {
+      "tse_code": "29998",
+      "name": "LUANDA",
+      "country_code": "AGO",
+      "country_iso2": "AO",
+      "country_name": "Angola",
+      "lat": -8.83682,
+      "lon": 13.23432,
+      "evidence": {
+        "geonames_id": "2240449",
+        "geonames_name": "Luanda",
+        "url": "https://www.geonames.org/2240449",
+        "method": "reviewed_name_and_country"
+      }
+    },
+    {
+      "tse_code": "99287",
+      "name": "LUSACA",
+      "country_code": "ZMB",
+      "country_iso2": "ZM",
+      "country_name": "Zâmbia",
+      "lat": -15.40669,
+      "lon": 28.28713,
+      "evidence": {
+        "geonames_id": "909137",
+        "geonames_name": "Lusaka",
+        "url": "https://www.geonames.org/909137",
+        "method": "unique_country_name_match"
+      }
+    },
+    {
+      "tse_code": "30066",
+      "name": "MADRI",
+      "country_code": "ESP",
+      "country_iso2": "ES",
+      "country_name": "Espanha",
+      "lat": 40.4165,
+      "lon": -3.70256,
+      "evidence": {
+        "geonames_id": "3117735",
+        "geonames_name": "Madrid",
+        "url": "https://www.geonames.org/3117735",
+        "method": "unique_country_name_match"
+      }
+    },
+    {
+      "tse_code": "39263",
+      "name": "MALABO",
+      "country_code": "GNQ",
+      "country_iso2": "GQ",
+      "country_name": "Guiné Equatorial",
+      "lat": 3.75578,
+      "lon": 8.78166,
+      "evidence": {
+        "geonames_id": "2309527",
+        "geonames_name": "Malabo",
+        "url": "https://www.geonames.org/2309527",
+        "method": "unique_country_name_match"
+      }
+    },
+    {
+      "tse_code": "30082",
+      "name": "MANILA",
+      "country_code": "PHL",
+      "country_iso2": "PH",
+      "country_name": "Filipinas",
+      "lat": 14.6042,
+      "lon": 120.9822,
+      "evidence": {
+        "geonames_id": "1701668",
+        "geonames_name": "Manila",
+        "url": "https://www.geonames.org/1701668",
+        "method": "reviewed_name_and_country"
+      }
+    },
+    {
+      "tse_code": "30074",
+      "name": "MANÁGUA",
+      "country_code": "NIC",
+      "country_iso2": "NI",
+      "country_name": "Nicarágua",
+      "lat": 12.13282,
+      "lon": -86.2504,
+      "evidence": {
+        "geonames_id": "3617763",
+        "geonames_name": "Managua",
+        "url": "https://www.geonames.org/3617763",
+        "method": "unique_country_name_match"
+      }
+    },
+    {
+      "tse_code": "30090",
+      "name": "MAPUTO",
+      "country_code": "MOZ",
+      "country_iso2": "MZ",
+      "country_name": "Moçambique",
+      "lat": -25.96553,
+      "lon": 32.58322,
+      "evidence": {
+        "geonames_id": "1040652",
+        "geonames_name": "Maputo",
+        "url": "https://www.geonames.org/1040652",
+        "method": "unique_country_name_match"
+      }
+    },
+    {
+      "tse_code": "99511",
+      "name": "MARSELHA",
+      "country_code": "FRA",
+      "country_iso2": "FR",
+      "country_name": "França",
+      "lat": 43.29695,
+      "lon": 5.38107,
+      "evidence": {
+        "geonames_id": "2995469",
+        "geonames_name": "Marseille",
+        "url": "https://www.geonames.org/2995469",
+        "method": "unique_country_name_match"
+      }
+    },
+    {
+      "tse_code": "39102",
+      "name": "MASCATE",
+      "country_code": "OMN",
+      "country_iso2": "OM",
+      "country_name": "Omã",
+      "lat": 23.58413,
+      "lon": 58.40778,
+      "evidence": {
+        "geonames_id": "287286",
+        "geonames_name": "Muscat",
+        "url": "https://www.geonames.org/287286",
+        "method": "unique_country_name_match"
+      }
+    },
+    {
+      "tse_code": "39004",
+      "name": "MENDOZA",
+      "country_code": "ARG",
+      "country_iso2": "AR",
+      "country_name": "Argentina",
+      "lat": -32.88946,
+      "lon": -68.84582,
+      "evidence": {
+        "geonames_id": "3844421",
+        "geonames_name": "Mendoza",
+        "url": "https://www.geonames.org/3844421",
+        "method": "reviewed_name_and_country"
+      }
+    },
+    {
+      "tse_code": "30104",
+      "name": "MEXICO",
+      "country_code": "MEX",
+      "country_iso2": "MX",
+      "country_name": "México",
+      "lat": 19.42847,
+      "lon": -99.12766,
+      "evidence": {
+        "geonames_id": "3530597",
+        "geonames_name": "Mexico City",
+        "url": "https://www.geonames.org/3530597",
+        "method": "reviewed_name_and_country"
+      }
+    },
+    {
+      "tse_code": "30112",
+      "name": "MIAMI",
+      "country_code": "USA",
+      "country_iso2": "US",
+      "country_name": "Estados Unidos",
+      "lat": 25.77427,
+      "lon": -80.19366,
+      "evidence": {
+        "geonames_id": "4164138",
+        "geonames_name": "Miami",
+        "url": "https://www.geonames.org/4164138",
+        "method": "reviewed_name_and_country"
+      }
+    },
+    {
+      "tse_code": "30120",
+      "name": "MILÃO",
+      "country_code": "ITA",
+      "country_iso2": "IT",
+      "country_name": "Itália",
+      "lat": 45.46427,
+      "lon": 9.18951,
+      "evidence": {
+        "geonames_id": "3173435",
+        "geonames_name": "Milan",
+        "url": "https://www.geonames.org/3173435",
+        "method": "reviewed_name_and_country"
+      }
+    },
+    {
+      "tse_code": "30147",
+      "name": "MONTEVIDÉU",
+      "country_code": "URY",
+      "country_iso2": "UY",
+      "country_name": "Uruguai",
+      "lat": -34.90328,
+      "lon": -56.18816,
+      "evidence": {
+        "geonames_id": "3441575",
+        "geonames_name": "Montevideo",
+        "url": "https://www.geonames.org/3441575",
+        "method": "reviewed_name_and_country"
+      }
+    },
+    {
+      "tse_code": "30155",
+      "name": "MONTREAL",
+      "country_code": "CAN",
+      "country_iso2": "CA",
+      "country_name": "Canadá",
+      "lat": 45.50884,
+      "lon": -73.58781,
+      "evidence": {
+        "geonames_id": "6077243",
+        "geonames_name": "Montréal",
+        "url": "https://www.geonames.org/6077243",
+        "method": "reviewed_name_and_country"
+      }
+    },
+    {
+      "tse_code": "30163",
+      "name": "MOSCOU",
+      "country_code": "RUS",
+      "country_iso2": "RU",
+      "country_name": "Rússia",
+      "lat": 55.75204,
+      "lon": 37.61781,
+      "evidence": {
+        "geonames_id": "524901",
+        "geonames_name": "Moscow",
+        "url": "https://www.geonames.org/524901",
+        "method": "unique_country_name_match"
+      }
+    },
+    {
+      "tse_code": "30171",
+      "name": "MUMBAI",
+      "country_code": "IND",
+      "country_iso2": "IN",
+      "country_name": "Índia",
+      "lat": 19.07283,
+      "lon": 72.88261,
+      "evidence": {
+        "geonames_id": "1275339",
+        "geonames_name": "Mumbai",
+        "url": "https://www.geonames.org/1275339",
+        "method": "unique_country_name_match"
+      }
+    },
+    {
+      "tse_code": "30180",
+      "name": "MUNIQUE",
+      "country_code": "DEU",
+      "country_iso2": "DE",
+      "country_name": "Alemanha",
+      "lat": 48.13743,
+      "lon": 11.57549,
+      "evidence": {
+        "geonames_id": "2867714",
+        "geonames_name": "Munich",
+        "url": "https://www.geonames.org/2867714",
+        "method": "unique_country_name_match"
+      }
+    },
+    {
+      "tse_code": "30198",
+      "name": "NAGÓIA",
+      "country_code": "JPN",
+      "country_iso2": "JP",
+      "country_name": "Japão",
+      "lat": 35.18147,
+      "lon": 136.90641,
+      "evidence": {
+        "geonames_id": "1856057",
+        "geonames_name": "Nagoya",
+        "url": "https://www.geonames.org/1856057",
+        "method": "unique_country_name_match"
+      }
+    },
+    {
+      "tse_code": "30201",
+      "name": "NAIRÓBI",
+      "country_code": "KEN",
+      "country_iso2": "KE",
+      "country_name": "Quênia",
+      "lat": -1.28333,
+      "lon": 36.81667,
+      "evidence": {
+        "geonames_id": "184745",
+        "geonames_name": "Nairobi",
+        "url": "https://www.geonames.org/184745",
+        "method": "unique_country_name_match"
+      }
+    },
+    {
+      "tse_code": "99180",
+      "name": "NASSAU",
+      "country_code": "BHS",
+      "country_iso2": "BS",
+      "country_name": "Bahamas",
+      "lat": 25.05823,
+      "lon": -77.34306,
+      "evidence": {
+        "geonames_id": "3571824",
+        "geonames_name": "Nassau",
+        "url": "https://www.geonames.org/3571824",
+        "method": "reviewed_name_and_country"
+      }
+    },
+    {
+      "tse_code": "39322",
+      "name": "NICOSIA",
+      "country_code": "CYP",
+      "country_iso2": "CY",
+      "country_name": "Chipre",
+      "lat": 35.17284,
+      "lon": 33.35397,
+      "evidence": {
+        "geonames_id": "146268",
+        "geonames_name": "Nicosia",
+        "url": "https://www.geonames.org/146268",
+        "method": "reviewed_name_and_country"
+      }
+    },
+    {
+      "tse_code": "30210",
+      "name": "NOVA DELHI",
+      "country_code": "IND",
+      "country_iso2": "IN",
+      "country_name": "Índia",
+      "lat": 28.62137,
+      "lon": 77.2148,
+      "evidence": {
+        "geonames_id": "1261481",
+        "geonames_name": "New Delhi",
+        "url": "https://www.geonames.org/1261481",
+        "method": "unique_country_name_match"
+      }
+    },
+    {
+      "tse_code": "30228",
+      "name": "NOVA YORK",
+      "country_code": "USA",
+      "country_iso2": "US",
+      "country_name": "Estados Unidos",
+      "lat": 40.71427,
+      "lon": -74.00597,
+      "evidence": {
+        "geonames_id": "5128581",
+        "geonames_name": "New York City",
+        "url": "https://www.geonames.org/5128581",
+        "method": "reviewed_name_and_country"
+      }
+    },
+    {
+      "tse_code": "99490",
+      "name": "ORLANDO",
+      "country_code": "USA",
+      "country_iso2": "US",
+      "country_name": "Estados Unidos",
+      "lat": 28.53834,
+      "lon": -81.37924,
+      "evidence": {
+        "geonames_id": "4167147",
+        "geonames_name": "Orlando",
+        "url": "https://www.geonames.org/4167147",
+        "method": "unique_country_name_match"
+      }
+    },
+    {
+      "tse_code": "30244",
+      "name": "OSLO",
+      "country_code": "NOR",
+      "country_iso2": "NO",
+      "country_name": "Noruega",
+      "lat": 59.91273,
+      "lon": 10.74609,
+      "evidence": {
+        "geonames_id": "3143244",
+        "geonames_name": "Oslo",
+        "url": "https://www.geonames.org/3143244",
+        "method": "unique_country_name_match"
+      }
+    },
+    {
+      "tse_code": "30252",
+      "name": "OTTAWA",
+      "country_code": "CAN",
+      "country_iso2": "CA",
+      "country_name": "Canadá",
+      "lat": 45.41117,
+      "lon": -75.69812,
+      "evidence": {
+        "geonames_id": "6094817",
+        "geonames_name": "Ottawa",
+        "url": "https://www.geonames.org/6094817",
+        "method": "reviewed_name_and_country"
+      }
+    },
+    {
+      "tse_code": "30260",
+      "name": "PANAMA",
+      "country_code": "PAN",
+      "country_iso2": "PA",
+      "country_name": "Panamá",
+      "lat": 8.9936,
+      "lon": -79.51973,
+      "evidence": {
+        "geonames_id": "3703443",
+        "geonames_name": "Panama City",
+        "url": "https://www.geonames.org/3703443",
+        "method": "reviewed_name_and_country"
+      }
+    },
+    {
+      "tse_code": "30279",
+      "name": "PARAMARIBO",
+      "country_code": "SUR",
+      "country_iso2": "SR",
+      "country_name": "Suriname",
+      "lat": 5.86638,
+      "lon": -55.16682,
+      "evidence": {
+        "geonames_id": "3383330",
+        "geonames_name": "Paramaribo",
+        "url": "https://www.geonames.org/3383330",
+        "method": "unique_country_name_match"
+      }
+    },
+    {
+      "tse_code": "30287",
+      "name": "PARIS",
+      "country_code": "FRA",
+      "country_iso2": "FR",
+      "country_name": "França",
+      "lat": 48.85341,
+      "lon": 2.3488,
+      "evidence": {
+        "geonames_id": "2988507",
+        "geonames_name": "Paris",
+        "url": "https://www.geonames.org/2988507",
+        "method": "reviewed_name_and_country"
+      }
+    },
+    {
+      "tse_code": "30295",
+      "name": "PASO LOS LIBRES",
+      "country_code": "ARG",
+      "country_iso2": "AR",
+      "country_name": "Argentina",
+      "lat": -29.71251,
+      "lon": -57.08771,
+      "evidence": {
+        "geonames_id": "3430104",
+        "geonames_name": "Paso de los Libres",
+        "url": "https://www.geonames.org/3430104",
+        "method": "reviewed_name_and_country"
+      }
+    },
+    {
+      "tse_code": "30309",
+      "name": "PEDRO JUAN CABALLERO",
+      "country_code": "PRY",
+      "country_iso2": "PY",
+      "country_name": "Paraguai",
+      "lat": -22.54925,
+      "lon": -55.7387,
+      "evidence": {
+        "geonames_id": "3437547",
+        "geonames_name": "Pedro Juan Caballero",
+        "url": "https://www.geonames.org/3437547",
+        "method": "unique_country_name_match"
+      }
+    },
+    {
+      "tse_code": "30317",
+      "name": "PEQUIM",
+      "country_code": "CHN",
+      "country_iso2": "CN",
+      "country_name": "China",
+      "lat": 39.9075,
+      "lon": 116.39723,
+      "evidence": {
+        "geonames_id": "1816670",
+        "geonames_name": "Beijing",
+        "url": "https://www.geonames.org/1816670",
+        "method": "unique_country_name_match"
+      }
+    },
+    {
+      "tse_code": "30325",
+      "name": "PORT OF SPAIN",
+      "country_code": "TTO",
+      "country_iso2": "TT",
+      "country_name": "Trinidad e Tobago",
+      "lat": 10.66668,
+      "lon": -61.51889,
+      "evidence": {
+        "geonames_id": "3573890",
+        "geonames_name": "Port of Spain",
+        "url": "https://www.geonames.org/3573890",
+        "method": "unique_country_name_match"
+      }
+    },
+    {
+      "tse_code": "30341",
+      "name": "PORTO",
+      "country_code": "PRT",
+      "country_iso2": "PT",
+      "country_name": "Portugal",
+      "lat": 41.1485,
+      "lon": -8.61097,
+      "evidence": {
+        "geonames_id": "2735943",
+        "geonames_name": "Porto",
+        "url": "https://www.geonames.org/2735943",
+        "method": "reviewed_name_and_country"
+      }
+    },
+    {
+      "tse_code": "30333",
+      "name": "PORTO PRÍNCIPE",
+      "country_code": "HTI",
+      "country_iso2": "HT",
+      "country_name": "Haiti",
+      "lat": 18.54349,
+      "lon": -72.33881,
+      "evidence": {
+        "geonames_id": "3718426",
+        "geonames_name": "Port-au-Prince",
+        "url": "https://www.geonames.org/3718426",
+        "method": "unique_country_name_match"
+      }
+    },
+    {
+      "tse_code": "30350",
+      "name": "PRAGA",
+      "country_code": "CZE",
+      "country_iso2": "CZ",
+      "country_name": "Tchéquia",
+      "lat": 50.08804,
+      "lon": 14.42076,
+      "evidence": {
+        "geonames_id": "3067696",
+        "geonames_name": "Prague",
+        "url": "https://www.geonames.org/3067696",
+        "method": "reviewed_name_and_country"
+      }
+    },
+    {
+      "tse_code": "30368",
+      "name": "PRAIA",
+      "country_code": "CPV",
+      "country_iso2": "CV",
+      "country_name": "Cabo Verde",
+      "lat": 14.93152,
+      "lon": -23.51254,
+      "evidence": {
+        "geonames_id": "3374333",
+        "geonames_name": "Praia",
+        "url": "https://www.geonames.org/3374333",
+        "method": "reviewed_name_and_country"
+      }
+    },
+    {
+      "tse_code": "30376",
+      "name": "PRETÓRIA",
+      "country_code": "ZAF",
+      "country_iso2": "ZA",
+      "country_name": "África do Sul",
+      "lat": -25.74486,
+      "lon": 28.18783,
+      "evidence": {
+        "geonames_id": "964137",
+        "geonames_name": "Pretoria",
+        "url": "https://www.geonames.org/964137",
+        "method": "unique_country_name_match"
+      }
+    },
+    {
+      "tse_code": "99155",
+      "name": "PUERTO IGUAZÚ",
+      "country_code": "ARG",
+      "country_iso2": "AR",
+      "country_name": "Argentina",
+      "lat": -25.59912,
+      "lon": -54.57355,
+      "evidence": {
+        "geonames_id": "3429777",
+        "geonames_name": "Puerto Iguazú",
+        "url": "https://www.geonames.org/3429777",
+        "method": "unique_country_name_match"
+      }
+    },
+    {
+      "tse_code": "99236",
+      "name": "PUERTO QUIJARRO",
+      "country_code": "BOL",
+      "country_iso2": "BO",
+      "country_name": "Bolívia",
+      "lat": -17.78333,
+      "lon": -57.76667,
+      "evidence": {
+        "geonames_id": "3444201",
+        "geonames_name": "Puerto Quijarro",
+        "url": "https://www.geonames.org/3444201",
+        "method": "unique_country_name_match"
+      }
+    },
+    {
+      "tse_code": "99295",
+      "name": "PYONGYANG",
+      "country_code": "PRK",
+      "country_iso2": "KP",
+      "country_name": "Coreia do Norte",
+      "lat": 39.03385,
+      "lon": 125.75432,
+      "evidence": {
+        "geonames_id": "1871859",
+        "geonames_name": "Pyongyang",
+        "url": "https://www.geonames.org/1871859",
+        "method": "unique_country_name_match"
+      }
+    },
+    {
+      "tse_code": "30392",
+      "name": "QUITO",
+      "country_code": "ECU",
+      "country_iso2": "EC",
+      "country_name": "Equador",
+      "lat": -0.22985,
+      "lon": -78.52495,
+      "evidence": {
+        "geonames_id": "3652462",
+        "geonames_name": "Quito",
+        "url": "https://www.geonames.org/3652462",
+        "method": "reviewed_name_and_country"
+      }
+    },
+    {
+      "tse_code": "30406",
+      "name": "RABAT",
+      "country_code": "MAR",
+      "country_iso2": "MA",
+      "country_name": "Marrocos",
+      "lat": 34.01325,
+      "lon": -6.83255,
+      "evidence": {
+        "geonames_id": "2538475",
+        "geonames_name": "Rabat",
+        "url": "https://www.geonames.org/2538475",
+        "method": "reviewed_name_and_country"
+      }
+    },
+    {
+      "tse_code": "30414",
+      "name": "RAMALLAH",
+      "country_code": "PSE",
+      "country_iso2": "PS",
+      "country_name": "Territórios palestinos",
+      "lat": 31.89964,
+      "lon": 35.20422,
+      "evidence": {
+        "geonames_id": "282239",
+        "geonames_name": "Ramallah",
+        "url": "https://www.geonames.org/282239",
+        "method": "unique_country_name_match"
+      }
+    },
+    {
+      "tse_code": "30422",
+      "name": "RIADE",
+      "country_code": "SAU",
+      "country_iso2": "SA",
+      "country_name": "Arábia Saudita",
+      "lat": 24.68773,
+      "lon": 46.72185,
+      "evidence": {
+        "geonames_id": "108410",
+        "geonames_name": "Riyadh",
+        "url": "https://www.geonames.org/108410",
+        "method": "unique_country_name_match"
+      }
+    },
+    {
+      "tse_code": "30430",
+      "name": "RIO BRANCO",
+      "country_code": "URY",
+      "country_iso2": "UY",
+      "country_name": "Uruguai",
+      "lat": -32.59802,
+      "lon": -53.38583,
+      "evidence": {
+        "geonames_id": "3440791",
+        "geonames_name": "Río Branco",
+        "url": "https://www.geonames.org/3440791",
+        "method": "reviewed_name_and_country"
+      }
+    },
+    {
+      "tse_code": "99244",
+      "name": "RIVERA",
+      "country_code": "URY",
+      "country_iso2": "UY",
+      "country_name": "Uruguai",
+      "lat": -30.90534,
+      "lon": -55.55076,
+      "evidence": {
+        "geonames_id": "3440781",
+        "geonames_name": "Rivera",
+        "url": "https://www.geonames.org/3440781",
+        "method": "reviewed_name_and_country"
+      }
+    },
+    {
+      "tse_code": "30449",
+      "name": "ROMA",
+      "country_code": "ITA",
+      "country_iso2": "IT",
+      "country_name": "Itália",
+      "lat": 41.89193,
+      "lon": 12.51133,
+      "evidence": {
+        "geonames_id": "3169070",
+        "geonames_name": "Rome",
+        "url": "https://www.geonames.org/3169070",
+        "method": "reviewed_name_and_country"
+      }
+    },
+    {
+      "tse_code": "99147",
+      "name": "SAINT JOHNS",
+      "country_code": "ATG",
+      "country_iso2": "AG",
+      "country_name": "Antígua e Barbuda",
+      "lat": 17.12096,
+      "lon": -61.84329,
+      "evidence": {
+        "geonames_id": "3576022",
+        "geonames_name": "Saint John’s",
+        "url": "https://www.geonames.org/3576022",
+        "method": "reviewed_name_and_country"
+      }
+    },
+    {
+      "tse_code": "30465",
+      "name": "SALTO DEL GUAIRÁ",
+      "country_code": "PRY",
+      "country_iso2": "PY",
+      "country_name": "Paraguai",
+      "lat": -24.0633,
+      "lon": -54.30763,
+      "evidence": {
+        "geonames_id": "3437148",
+        "geonames_name": "Salto del Guairá",
+        "url": "https://www.geonames.org/3437148",
+        "method": "unique_country_name_match"
+      }
+    },
+    {
+      "tse_code": "30473",
+      "name": "SANTA CRUZ DE LA SIERRA",
+      "country_code": "BOL",
+      "country_iso2": "BO",
+      "country_name": "Bolívia",
+      "lat": -17.78629,
+      "lon": -63.18117,
+      "evidence": {
+        "geonames_id": "3904906",
+        "geonames_name": "Santa Cruz de la Sierra",
+        "url": "https://www.geonames.org/3904906",
+        "method": "reviewed_name_and_country"
+      }
+    },
+    {
+      "tse_code": "99279",
+      "name": "SANTA ELENA DE UAIRÉN",
+      "country_code": "VEN",
+      "country_iso2": "VE",
+      "country_name": "Venezuela",
+      "lat": 4.60226,
+      "lon": -61.11025,
+      "evidence": {
+        "geonames_id": "3627382",
+        "geonames_name": "Santa Elena de Uairén",
+        "url": "https://www.geonames.org/3627382",
+        "method": "unique_country_name_match"
+      }
+    },
+    {
+      "tse_code": "30481",
+      "name": "SANTIAGO",
+      "country_code": "CHL",
+      "country_iso2": "CL",
+      "country_name": "Chile",
+      "lat": -33.45694,
+      "lon": -70.64827,
+      "evidence": {
+        "geonames_id": "3871336",
+        "geonames_name": "Santiago",
+        "url": "https://www.geonames.org/3871336",
+        "method": "reviewed_name_and_country"
+      }
+    },
+    {
+      "tse_code": "30988",
+      "name": "SARAJEVO",
+      "country_code": "BIH",
+      "country_iso2": "BA",
+      "country_name": "Bósnia e Herzegovina",
+      "lat": 43.84864,
+      "lon": 18.35644,
+      "evidence": {
+        "geonames_id": "3191281",
+        "geonames_name": "Sarajevo",
+        "url": "https://www.geonames.org/3191281",
+        "method": "unique_country_name_match"
+      }
+    },
+    {
+      "tse_code": "30538",
+      "name": "SEUL",
+      "country_code": "KOR",
+      "country_iso2": "KR",
+      "country_name": "Coreia do Sul",
+      "lat": 37.566,
+      "lon": 126.9784,
+      "evidence": {
+        "geonames_id": "1835848",
+        "geonames_name": "Seoul",
+        "url": "https://www.geonames.org/1835848",
+        "method": "unique_country_name_match"
+      }
+    },
+    {
+      "tse_code": "29548",
+      "name": "SINGAPURA",
+      "country_code": "SGP",
+      "country_iso2": "SG",
+      "country_name": "Singapura",
+      "lat": 1.28967,
+      "lon": 103.85007,
+      "evidence": {
+        "geonames_id": "1880252",
+        "geonames_name": "Singapore",
+        "url": "https://www.geonames.org/1880252",
+        "method": "unique_country_name_match"
+      }
+    },
+    {
+      "tse_code": "99333",
+      "name": "ST GEORGES DE LOYAPOCK",
+      "country_code": "GUF",
+      "country_iso2": "GF",
+      "country_name": "Guiana Francesa",
+      "lat": 3.88857,
+      "lon": -51.80243,
+      "evidence": {
+        "geonames_id": "3380402",
+        "geonames_name": "Saint-Georges",
+        "url": "https://www.geonames.org/3380402",
+        "method": "reviewed_name_and_country"
+      }
+    },
+    {
+      "tse_code": "30562",
+      "name": "SYDNEY",
+      "country_code": "AUS",
+      "country_iso2": "AU",
+      "country_name": "Austrália",
+      "lat": -33.86785,
+      "lon": 151.20732,
+      "evidence": {
+        "geonames_id": "2147714",
+        "geonames_name": "Sydney",
+        "url": "https://www.geonames.org/2147714",
+        "method": "reviewed_name_and_country"
+      }
+    },
+    {
+      "tse_code": "30490",
+      "name": "SÃO DOMINGOS",
+      "country_code": "DOM",
+      "country_iso2": "DO",
+      "country_name": "República Dominicana",
+      "lat": 18.47186,
+      "lon": -69.89232,
+      "evidence": {
+        "geonames_id": "3492908",
+        "geonames_name": "Santo Domingo",
+        "url": "https://www.geonames.org/3492908",
+        "method": "reviewed_name_and_country"
+      }
+    },
+    {
+      "tse_code": "30503",
+      "name": "SÃO FRANCISCO",
+      "country_code": "USA",
+      "country_iso2": "US",
+      "country_name": "Estados Unidos",
+      "lat": 37.77493,
+      "lon": -122.41942,
+      "evidence": {
+        "geonames_id": "5391959",
+        "geonames_name": "San Francisco",
+        "url": "https://www.geonames.org/5391959",
+        "method": "reviewed_name_and_country"
+      }
+    },
+    {
+      "tse_code": "30511",
+      "name": "SÃO JOSÉ",
+      "country_code": "CRI",
+      "country_iso2": "CR",
+      "country_name": "Costa Rica",
+      "lat": 9.93388,
+      "lon": -84.08489,
+      "evidence": {
+        "geonames_id": "3621849",
+        "geonames_name": "San José",
+        "url": "https://www.geonames.org/3621849",
+        "method": "reviewed_name_and_country"
+      }
+    },
+    {
+      "tse_code": "30520",
+      "name": "SÃO SALVADOR",
+      "country_code": "SLV",
+      "country_iso2": "SV",
+      "country_name": "El Salvador",
+      "lat": 13.68935,
+      "lon": -89.18718,
+      "evidence": {
+        "geonames_id": "3583361",
+        "geonames_name": "San Salvador",
+        "url": "https://www.geonames.org/3583361",
+        "method": "reviewed_name_and_country"
+      }
+    },
+    {
+      "tse_code": "39225",
+      "name": "SÃO TOMÉ",
+      "country_code": "STP",
+      "country_iso2": "ST",
+      "country_name": "São Tomé e Príncipe",
+      "lat": 0.33756,
+      "lon": 6.7299,
+      "evidence": {
+        "geonames_id": "2410763",
+        "geonames_name": "São Tomé",
+        "url": "https://www.geonames.org/2410763",
+        "method": "reviewed_name_and_country"
+      }
+    },
+    {
+      "tse_code": "30546",
+      "name": "SÓFIA",
+      "country_code": "BGR",
+      "country_iso2": "BG",
+      "country_name": "Bulgária",
+      "lat": 42.69751,
+      "lon": 23.32415,
+      "evidence": {
+        "geonames_id": "727011",
+        "geonames_name": "Sofia",
+        "url": "https://www.geonames.org/727011",
+        "method": "reviewed_name_and_country"
+      }
+    },
+    {
+      "tse_code": "30570",
+      "name": "TAIPÉ",
+      "country_code": "TWN",
+      "country_iso2": "TW",
+      "country_name": "Taiwan",
+      "lat": 25.05306,
+      "lon": 121.52639,
+      "evidence": {
+        "geonames_id": "1668341",
+        "geonames_name": "Taipei",
+        "url": "https://www.geonames.org/1668341",
+        "method": "unique_country_name_match"
+      }
+    },
+    {
+      "tse_code": "99317",
+      "name": "TALIN",
+      "country_code": "EST",
+      "country_iso2": "EE",
+      "country_name": "Estônia",
+      "lat": 59.43696,
+      "lon": 24.75353,
+      "evidence": {
+        "geonames_id": "588409",
+        "geonames_name": "Tallinn",
+        "url": "https://www.geonames.org/588409",
+        "method": "reviewed_name_and_country"
+      }
+    },
+    {
+      "tse_code": "99104",
+      "name": "TBILISI",
+      "country_code": "GEO",
+      "country_iso2": "GE",
+      "country_name": "Geórgia",
+      "lat": 41.69143,
+      "lon": 44.83412,
+      "evidence": {
+        "geonames_id": "611717",
+        "geonames_name": "Tbilisi",
+        "url": "https://www.geonames.org/611717",
+        "method": "unique_country_name_match"
+      }
+    },
+    {
+      "tse_code": "30597",
+      "name": "TEERÃ",
+      "country_code": "IRN",
+      "country_iso2": "IR",
+      "country_name": "Irã",
+      "lat": 35.69439,
+      "lon": 51.42151,
+      "evidence": {
+        "geonames_id": "112931",
+        "geonames_name": "Tehran",
+        "url": "https://www.geonames.org/112931",
+        "method": "reviewed_name_and_country"
+      }
+    },
+    {
+      "tse_code": "30600",
+      "name": "TEGUCIGALPA",
+      "country_code": "HND",
+      "country_iso2": "HN",
+      "country_name": "Honduras",
+      "lat": 14.0818,
+      "lon": -87.20681,
+      "evidence": {
+        "geonames_id": "3600949",
+        "geonames_name": "Tegucigalpa",
+        "url": "https://www.geonames.org/3600949",
+        "method": "unique_country_name_match"
+      }
+    },
+    {
+      "tse_code": "30619",
+      "name": "TEL AVIV",
+      "country_code": "ISR",
+      "country_iso2": "IL",
+      "country_name": "Israel",
+      "lat": 32.08088,
+      "lon": 34.78057,
+      "evidence": {
+        "geonames_id": "293397",
+        "geonames_name": "Tel Aviv",
+        "url": "https://www.geonames.org/293397",
+        "method": "unique_country_name_match"
+      }
+    },
+    {
+      "tse_code": "99139",
+      "name": "TIRANA",
+      "country_code": "ALB",
+      "country_iso2": "AL",
+      "country_name": "Albânia",
+      "lat": 41.32744,
+      "lon": 19.81866,
+      "evidence": {
+        "geonames_id": "3183875",
+        "geonames_name": "Tirana",
+        "url": "https://www.geonames.org/3183875",
+        "method": "unique_country_name_match"
+      }
+    },
+    {
+      "tse_code": "30635",
+      "name": "TORONTO",
+      "country_code": "CAN",
+      "country_iso2": "CA",
+      "country_name": "Canadá",
+      "lat": 43.70643,
+      "lon": -79.39864,
+      "evidence": {
+        "geonames_id": "6167865",
+        "geonames_name": "Toronto",
+        "url": "https://www.geonames.org/6167865",
+        "method": "reviewed_name_and_country"
+      }
+    },
+    {
+      "tse_code": "30686",
+      "name": "TRÍPOLI",
+      "country_code": "LBY",
+      "country_iso2": "LY",
+      "country_name": "Líbia",
+      "lat": 32.88743,
+      "lon": 13.18733,
+      "evidence": {
+        "geonames_id": "2210247",
+        "geonames_name": "Tripoli",
+        "url": "https://www.geonames.org/2210247",
+        "method": "reviewed_name_and_country"
+      }
+    },
+    {
+      "tse_code": "30708",
+      "name": "TUNIS",
+      "country_code": "TUN",
+      "country_iso2": "TN",
+      "country_name": "Tunísia",
+      "lat": 36.81897,
+      "lon": 10.16579,
+      "evidence": {
+        "geonames_id": "2464470",
+        "geonames_name": "Tunis",
+        "url": "https://www.geonames.org/2464470",
+        "method": "reviewed_name_and_country"
+      }
+    },
+    {
+      "tse_code": "30627",
+      "name": "TÓQUIO",
+      "country_code": "JPN",
+      "country_iso2": "JP",
+      "country_name": "Japão",
+      "lat": 35.6895,
+      "lon": 139.69171,
+      "evidence": {
+        "geonames_id": "1850147",
+        "geonames_name": "Tokyo",
+        "url": "https://www.geonames.org/1850147",
+        "method": "unique_country_name_match"
+      }
+    },
+    {
+      "tse_code": "39284",
+      "name": "UAGADUGU",
+      "country_code": "BFA",
+      "country_iso2": "BF",
+      "country_name": "Burquina Faso",
+      "lat": 12.36566,
+      "lon": -1.53388,
+      "evidence": {
+        "geonames_id": "2357048",
+        "geonames_name": "Ouagadougou",
+        "url": "https://www.geonames.org/2357048",
+        "method": "unique_country_name_match"
+      }
+    },
+    {
+      "tse_code": "39063",
+      "name": "VANCOUVER",
+      "country_code": "CAN",
+      "country_iso2": "CA",
+      "country_name": "Canadá",
+      "lat": 49.24966,
+      "lon": -123.11934,
+      "evidence": {
+        "geonames_id": "6173331",
+        "geonames_name": "Vancouver",
+        "url": "https://www.geonames.org/6173331",
+        "method": "reviewed_name_and_country"
+      }
+    },
+    {
+      "tse_code": "30740",
+      "name": "VARSÓVIA",
+      "country_code": "POL",
+      "country_iso2": "PL",
+      "country_name": "Polônia",
+      "lat": 52.22977,
+      "lon": 21.01178,
+      "evidence": {
+        "geonames_id": "756135",
+        "geonames_name": "Warsaw",
+        "url": "https://www.geonames.org/756135",
+        "method": "unique_country_name_match"
+      }
+    },
+    {
+      "tse_code": "30767",
+      "name": "VIENA",
+      "country_code": "AUT",
+      "country_iso2": "AT",
+      "country_name": "Áustria",
+      "lat": 48.20849,
+      "lon": 16.37208,
+      "evidence": {
+        "geonames_id": "2761369",
+        "geonames_name": "Vienna",
+        "url": "https://www.geonames.org/2761369",
+        "method": "reviewed_name_and_country"
+      }
+    },
+    {
+      "tse_code": "30783",
+      "name": "WASHINGTON",
+      "country_code": "USA",
+      "country_iso2": "US",
+      "country_name": "Estados Unidos",
+      "lat": 38.89511,
+      "lon": -77.03637,
+      "evidence": {
+        "geonames_id": "4140963",
+        "geonames_name": "Washington",
+        "url": "https://www.geonames.org/4140963",
+        "method": "reviewed_name_and_country"
+      }
+    },
+    {
+      "tse_code": "30805",
+      "name": "WELLINGTON",
+      "country_code": "NZL",
+      "country_iso2": "NZ",
+      "country_name": "Nova Zelândia",
+      "lat": -41.28664,
+      "lon": 174.77557,
+      "evidence": {
+        "geonames_id": "2179537",
+        "geonames_name": "Wellington",
+        "url": "https://www.geonames.org/2179537",
+        "method": "reviewed_name_and_country"
+      }
+    },
+    {
+      "tse_code": "30821",
+      "name": "WINDHOEK",
+      "country_code": "NAM",
+      "country_iso2": "NA",
+      "country_name": "Namíbia",
+      "lat": -22.55941,
+      "lon": 17.08323,
+      "evidence": {
+        "geonames_id": "3352136",
+        "geonames_name": "Windhoek",
+        "url": "https://www.geonames.org/3352136",
+        "method": "unique_country_name_match"
+      }
+    },
+    {
+      "tse_code": "30848",
+      "name": "XANGAI",
+      "country_code": "CHN",
+      "country_iso2": "CN",
+      "country_name": "China",
+      "lat": 31.22222,
+      "lon": 121.45806,
+      "evidence": {
+        "geonames_id": "1796236",
+        "geonames_name": "Shanghai",
+        "url": "https://www.geonames.org/1796236",
+        "method": "unique_country_name_match"
+      }
+    },
+    {
+      "tse_code": "99376",
+      "name": "YANGON",
+      "country_code": "MMR",
+      "country_iso2": "MM",
+      "country_name": "Mianmar (Birmânia)",
+      "lat": 16.80528,
+      "lon": 96.15611,
+      "evidence": {
+        "geonames_id": "1298824",
+        "geonames_name": "Yangon",
+        "url": "https://www.geonames.org/1298824",
+        "method": "unique_country_name_match"
+      }
+    },
+    {
+      "tse_code": "39020",
+      "name": "ZAGREB",
+      "country_code": "HRV",
+      "country_iso2": "HR",
+      "country_name": "Croácia",
+      "lat": 45.81444,
+      "lon": 15.97798,
+      "evidence": {
+        "geonames_id": "3186886",
+        "geonames_name": "Zagreb",
+        "url": "https://www.geonames.org/3186886",
+        "method": "unique_country_name_match"
+      }
+    },
+    {
+      "tse_code": "30864",
+      "name": "ZURIQUE",
+      "country_code": "CHE",
+      "country_iso2": "CH",
+      "country_name": "Suíça",
+      "lat": 47.36667,
+      "lon": 8.55,
+      "evidence": {
+        "geonames_id": "2657896",
+        "geonames_name": "Zürich",
+        "url": "https://www.geonames.org/2657896",
+        "method": "unique_country_name_match"
+      }
+    }
+  ]
+}

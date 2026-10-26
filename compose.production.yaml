@@ -1,0 +1,117 @@
+name: brasil-apura
+x-app: &app
+  image: brasil-apura:local
+  build:
+    context: .
+    target: runtime
+  env_file: .env.production
+  environment:
+    APP_ENV: production
+    APP_DEBUG: "false"
+    APP_KEY: ${APP_KEY:?Execute deploy/init.sh}
+    DB_CONNECTION: mysql
+    DB_HOST: db
+    DB_PORT: "3306"
+    CACHE_STORE: database
+    SESSION_DRIVER: database
+    SESSION_SECURE_COOKIE: "true"
+    QUEUE_CONNECTION: database
+    FILESYSTEM_DISK: local
+    LOG_CHANNEL: stderr
+    LOG_LEVEL: warning
+    TRUSTED_PROXIES: 172.28.0.2
+  volumes:
+    - app-storage:/var/www/html/storage
+  networks:
+    - backend
+  logging:
+    driver: json-file
+    options:
+      max-size: "10m"
+      max-file: "3"
+
+services:
+  db:
+    image: mariadb:11.4
+    restart: unless-stopped
+    environment:
+      MARIADB_DATABASE: ${DB_DATABASE:-brasil_apura}
+      MARIADB_USER: ${DB_USERNAME:-brasil_apura}
+      MARIADB_PASSWORD: ${DB_PASSWORD:?Execute deploy/init.sh}
+      MARIADB_ROOT_PASSWORD: ${MARIADB_ROOT_PASSWORD:?Execute deploy/init.sh}
+    volumes:
+      - database:/var/lib/mysql
+    networks:
+      - backend
+    healthcheck:
+      test: ["CMD", "healthcheck.sh", "--connect", "--innodb_initialized"]
+      start_period: 30s
+      interval: 10s
+      timeout: 5s
+      retries: 15
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+  app:
+    <<: *app
+    restart: unless-stopped
+    depends_on:
+      db:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "php", "-r", "exit(@file_get_contents('http://127.0.0.1/up') === false ? 1 : 0);"]
+      start_period: 30s
+      interval: 20s
+      timeout: 5s
+      retries: 5
+
+  scheduler:
+    <<: *app
+    restart: unless-stopped
+    user: www-data
+    command: ["php", "-d", "max_execution_time=0", "artisan", "schedule:work", "--no-interaction"]
+    stop_grace_period: 5m
+    depends_on:
+      app:
+        condition: service_healthy
+      db:
+        condition: service_healthy
+
+  gateway:
+    image: caddy:2-alpine
+    restart: unless-stopped
+    environment:
+      SITE_HOST: ${SITE_HOST:?Configure o dominio}
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./deploy/Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy-data:/data
+      - caddy-config:/config
+    depends_on:
+      app:
+        condition: service_healthy
+    networks:
+      backend:
+        ipv4_address: 172.28.0.2
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+networks:
+  backend:
+    ipam:
+      config:
+        - subnet: 172.28.0.0/24
+
+volumes:
+  database:
+  app-storage:
+  caddy-data:
+  caddy-config:
