@@ -2,14 +2,6 @@
 
 Painel independente da totalização presidencial de 2026. Não é um sistema oficial do TSE.
 
-## Estado atual
-
-Etapa 4 concluída: ingestão real dos arquivos oficiais EA11/EA20, armazenamento
-bruto, normalização, snapshots e leitura local implementados. A coleta inicial
-verificou 58 recortes: Brasil, 27 UFs e exterior nos dois turnos.
-O dashboard está disponível na página inicial, com filtros por turno e UF, mapa IBGE, gráficos e API interna. A análise histórica aguarda observações verificadas.
-Nenhum resultado eleitoral é incluído nos seeders.
-
 ## Requisitos
 
 Windows, PHP 8.3+ com BCMath, PDO MySQL, cURL, OpenSSL, mbstring, XML e fileinfo;
@@ -135,28 +127,6 @@ Testes usam SQLite em memória e HTTP simulado, sem alterar os resultados locais
 ou consultar o TSE. As fixtures são sintéticas e exclusivas dos testes.
 A coleta real é verificada separadamente contra os arquivos oficiais.
 O endpoint /up verifica o início do Laravel.
-
-## GitHub e produção
-
-O repositório pode ser público. Nunca publique .env, senhas, chaves, vendor,
-node_modules, bancos locais ou arquivos privados. Versione composer.lock e
-package-lock.json. Novas instalações obtêm dados executando a sincronização.
-
-GitHub Pages não executa Laravel. O painel exige hospedagem PHP com banco,
-HTTPS, armazenamento persistente e execução do Scheduler.
-
-1. Configure o document root em public/ e HTTPS.
-2. Use APP_ENV=production, APP_DEBUG=false e APP_URL com o domínio.
-3. Gere uma APP_KEY exclusiva e configure credenciais fora do repositório.
-4. Execute composer install --no-dev --optimize-autoloader.
-5. Compile assets com npm ci e npm run build.
-6. Execute php artisan migrate --force e php artisan db:seed --force para a configuração inicial.
-7. Habilite a coleta, execute tse:sync --all-scopes e php artisan optimize.
-8. Programe php artisan schedule:run a cada minuto usando o agendador da hospedagem.
-9. Configure backups do banco e dos arquivos brutos e Redis compartilhado se houver múltiplas instâncias.
-
-Não existem endpoints administrativos públicos. GitHub remoto e hospedagem
-ainda não foram publicados.
 
 ## Resultados por país
 
